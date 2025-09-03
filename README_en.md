@@ -6,6 +6,7 @@
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-yellow)](https://huggingface.co/baichuan-inc/Baichuan-M2-32B)
 [![M2 GPTQ-4bit](https://img.shields.io/badge/🤗%20M2%20GPTQ--4bit-Model-orange)](https://huggingface.co/baichuan-inc/Baichuan-M2-32B-GPTQ-Int4)
 [![Huawei Ascend 8bit](https://img.shields.io/badge/✨%20Huawei%20Ascend%208bit-Model-green)](https://modelers.cn/models/Baichuan/Baichuan-M2-32B-W8A8)
+[![Tech Report](https://img.shields.io/badge/📜%20TechReport-Arxiv-red)](https://arxiv.org/abs/2509.02208)
 
 <h4 align="center">
     <p>
@@ -61,7 +62,8 @@ Baichuan-M2 incorporates three core technical innovations: First, through the **
 
 ## 🔧 Technical Features
 
-📗 **Technical Blog**: [Blog - Baichuan-M2](https://www.baichuan-ai.com/blog/baichuan-M2)
+[📗 **Technical Blog**](https://www.baichuan-ai.com/blog/baichuan-M2)
+[📜 **Technical Report**](https://arxiv.org/abs/2509.02208)
 
 ### Large Verifier System
 - **Patient Simulator**: Virtual patient system based on real clinical cases
@@ -169,3 +171,16 @@ Thank you to the open-source community. We commit to continuous contribution and
 
 </div>
 
+## 📚 Citation
+
+```bibtex
+@misc{baichuan-m2,
+    title={Baichuan-M2: Scaling Medical Capability with Large Verifier System},
+    author={M2 Team and Chengfeng Dou and Chong Liu and Fan Yang and Fei Li and Jiyuan Jia and Mingyang Chen and Qiang Ju and Shuai Wang and Shunya Dang and Tianpeng Li and Xiangrong Zeng and Yijie Zhou, et al.},
+    year={2025},
+    eprint={2509.02208},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2509.02208},
+}
+```
