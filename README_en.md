@@ -117,7 +117,7 @@ print("content:", content)
 
 ```
 
-For deployment, you can use `sglang>=0.4.6.post1` or `vllm>=0.9.0` or to create an OpenAI-compatible API endpoint:
+For deployment, you can use `sglang>=0.4.6.post1` or `vllm>=0.9.0` to create an OpenAI-compatible API endpoint:
 - SGLang:
     ```shell
     python -m sglang.launch_server --model-path baichuan-inc/Baichuan-M2-32B --reasoning-parser qwen3
